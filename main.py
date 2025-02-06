@@ -36,3 +36,23 @@ for scientist in scientists:
 print(scientists)
 del scientists[:]
 print(scientists)
+
+places = ["Sweden", "Japan", "Antarctica", "Sydney", "New York"]
+for place in places:
+    print(place)
+
+print(sorted(places))
+
+print(places)
+
+places.reverse()
+print(places)
+
+places.reverse()
+print(places)
+
+places.sort()
+print(places)
+
+places.sort(reverse=True)
+print(places)
